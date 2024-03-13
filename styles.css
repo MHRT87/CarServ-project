@@ -1,0 +1,68 @@
+* , *::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.top-start{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color:  rgba(175, 171, 171, 0.288);
+    font-family: "System ui";
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.top-start-left , .top-start-right{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 12px;
+}
+
+.top-start-left ul{
+    justify-content: start;
+}
+.top-start-left ul , .top-start-right ul{
+    display: flex;
+    width: 100%;
+}
+.top-start-right ul li , .top-start-left ul li{
+    margin-left: 10px;
+    color: #596277;
+}
+
+.top-start-right ul li i , .top-start-left ul li i{
+    color: red !important;
+}
+
+.top-start-right ul{
+    display: flex;
+    justify-content: end;
+}
+
+.b-g-right{
+    background-color: white;
+    font-size: large;
+    border-radius: 2px;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    background-color:  #ffffff;
+    font-family: "System ui";
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.navbar-left{
+    padding: 12px;
+    
+}
